@@ -1,0 +1,19 @@
+
+.lowermain{
+    padding: 0 0px;
+    display:flex;
+}
+.lowermain:nth-child(-n+3) {
+    margin-left: 150px;
+}
+@media screen and (max-width: 580px) {
+    
+    .lowermain{
+        padding: 0 10px;
+        display:flex;
+        flex-direction: column;
+    }
+    .lowermain:nth-child(-n+3) {
+        margin-left: 0;
+    }
+  }

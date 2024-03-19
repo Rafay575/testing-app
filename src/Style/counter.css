@@ -1,0 +1,7 @@
+.countdown-timer>span{
+    color: rgba(255, 255, 255, 1); 
+    font-size: 25px; 
+    font-weight: 400;
+    opacity:0.5 ;
+    margin: 0 5px;
+}

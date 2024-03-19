@@ -1,0 +1,17 @@
+.logo {
+    margin-top: 2px;
+    margin-left: 4px;
+    height: 16.16px;
+    position: absolute;
+    width: 16.16px;
+    background-color: #FF002B;
+    /* border-radius: 4px; */
+    z-index: 2;
+    box-shadow: -4px -4px ;
+  }
+
+.logoGreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

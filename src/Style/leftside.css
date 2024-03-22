@@ -5,8 +5,8 @@
     opacity:0.5 
 }
 .line{
-    width: 400px;
-    height: 4px;
+    width: 360px;
+    height: 3px;
     margin: 15px 0 0 0;
     background-color:rgba(255, 255, 255, 1);  ;
     opacity:0.5 
@@ -29,8 +29,25 @@
         margin: 10px 0 0 0;
         background-color:rgba(255, 255, 255, 1);  ;
         opacity:0.5 
+    }  
+}
+
+@media screen and (max-width: 1180px  ) {
+    .leftside{
+        color: rgba(255, 255, 255, 1); 
+        font-size: 50px; 
+        font-weight: 400;
+        margin-top: 20px;
+        opacity:0.5 ;
+        display: flex;
+        flex-direction: column;
+        
     }
-    
-  
-  
-  }
+    .line{
+        width: 225px;
+        height: 3px;
+        margin: 10px 0 0 0;
+        background-color:rgba(255, 255, 255, 1);  ;
+        opacity:0.5 
+    }  
+}

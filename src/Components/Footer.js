@@ -4,7 +4,7 @@ import '../Style/footer.css'
 function Footer() {
     return (
         <div className='footer-full'>
-            <p className='text' style={{ 'marginTop': '50px' }}>blockspin.bet © |
+            <p className='text'>blockspin.bet © |
                 <a href=' https://blockspin-protocol.gitbook.io/' className=' doc' style={{ textDecoration: 'none', marginLeft: '3px', marginRight: '3px' }}>
                     documentation
                 </a>

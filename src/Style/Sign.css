@@ -1,42 +1,38 @@
 .rotating-container {
     position: relative; /* Position container relative to its parent */
-    width: 100px; /* Adjust width as needed */
-    height: 100px; /* Adjust height as needed */
-    animation: rotate 1s linear infinite; /* Define the animation */
-  }
-  
-  .rotating-add-sign {
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    animation: rotate 2s linear infinite; /* Define the animation */
+}
+
+.rotating-add-sign {
     position: absolute; /* Position the "+" sign absolutely within the container */
     top: 50%; /* Align to the center vertically */
     left: 50%; /* Align to the center horizontally */
     transform: translate(-50%, -50%); /* Center the "+" sign */
     font-size: 24px; /* Adjust font size as needed */
-  }
-  
-  @keyframes rotate {
+}
+
+@keyframes rotate {
     from {
-      transform: rotate(0deg); /* Rotate from 0 degrees */
+        transform: rotate(0deg); /* Rotate from 0 degrees */
     }
     to {
-      transform: rotate(360deg); /* Rotate to 360 degrees */
+        transform: rotate(360deg); /* Rotate to 360 degrees */
     }
-  }
-  
-  
-  .svg {
-      /* position: relative; Position container relative to its parent */
-      width: 100px; /* Adjust width as needed */
-      height: 100px; /* Adjust height as needed */
-      /* animation: rotate 1s linear infinite; Define the animation */
-    }
-  @media screen and (max-width: 580px)  {
+}
+
+.svg {
+    /* position: relative; Position container relative to its parent */
+    width: 120px; /* Adjust width as needed */
+    height: 120px; /* Adjust height as needed */
+    /* animation: rotate 1s linear infinite; Define the animation */
+}
+@media screen and (max-width: 580px) {
     .svg {
         /* position: relative; Position container relative to its parent */
         width: 200px; /* Adjust width as needed */
         height: 200px; /* Adjust height as needed */
         /* animation: rotate 1s linear infinite; Define the animation */
-      }
-      
-    
-
+    }
 }

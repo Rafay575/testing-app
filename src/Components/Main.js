@@ -8,13 +8,13 @@ const Main = () => {
         <>
             <div className='lowermain'>
 
-                <div style={{  }}>
+                <div className='l'>
                     <Leftside />
                 </div>
-                <div style={{ flex: 0.55 }}>
+                <div className='m'>
                     <Middle />
                 </div>
-                <div style={{ flex: 0.5 }}>
+                <div className='r'>
                     <Rightside />
                 </div>
 

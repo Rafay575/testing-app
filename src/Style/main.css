@@ -1,10 +1,23 @@
 
 .lowermain{
-    padding: 0 0px;
+    padding: 0 200px;
     display:flex;
+    /* justify-content: space-between; */
 }
-.lowermain:nth-child(-n+3) {
-    margin-left: 150px;
+
+
+.lowermain:nth-child(-n+1) {
+    /* margin-left: 150px; */
+    /* width: 20%; */
+}
+
+.lowermain> .m {
+    /* margin-left: 150px; */
+    flex:1
+}
+
+.lowermain> .r {
+    padding: 0 100px;
 }
 @media screen and (max-width: 580px) {
     

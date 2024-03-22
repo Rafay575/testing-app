@@ -1,11 +1,11 @@
 .leftside{
     color: rgba(255, 255, 255, 1); 
-    font-size: 90px; 
+    font-size: 80px; 
     font-weight: 400;
     opacity:0.5 
 }
 .line{
-    width: 460px;
+    width: 400px;
     height: 4px;
     margin: 15px 0 0 0;
     background-color:rgba(255, 255, 255, 1);  ;

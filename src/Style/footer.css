@@ -1,29 +1,30 @@
-.text{
-    color: rgba(255, 255, 255, 1); 
-    font-size: 25px; 
+.text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 25px;
     font-weight: 400;
-    opacity:0.5 ;
+    opacity: 0.5;
 }
 
+.doc {
+    font-size: 25px;
+    font-weight: 400;
 
-.footer-full{
+    color: rgb(213, 202, 202);
+}
+.footer-full {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-@media screen and (max-width: 580px)  {
-    
-    .footer-full{
-        
+@media screen and (max-width: 580px) {
+    .footer-full {
         padding-bottom: 40px;
     }
-    .text{
+    .text {
         /* color: rgba(255, 255, 255, 1);  */
-        font-size: 20px; 
+        font-size: 20px;
         /* font-weight: 400; */
         /* opacity:0.5 ; */
     }
-    
 }

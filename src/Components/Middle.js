@@ -10,9 +10,11 @@ function Middle() {
                 <CountdownTimer countdownTimestampMs={1735686000000} />
             </div>
             <p style={{ 'color': 'rgba(255, 255, 255, 1)', 'fontSize': '25px', "fontWeight": '400', 'opacity': '0.5', 'marginTop': '10px' }}>take your seat at the table for early access</p>
+            <a href=' https://t.me/blockspinbet'>
 
-            <img src={process.env.PUBLIC_URL + "images/telegram.png"} width={60} />
-            
+                <img src={process.env.PUBLIC_URL + "images/telegram.png"} width={60} />
+            </a>
+
 
         </div>
     )

@@ -1,32 +1,22 @@
-
-.lowermain{
+.lowermain {
     padding: 0 200px;
-    display:flex;
-    /* justify-content: space-between; */
+    display: flex;
 }
 
-
-.lowermain:nth-child(-n+1) {
-    /* margin-left: 150px; */
-    /* width: 20%; */
+.lowermain > .m {
+    flex: 1;
 }
 
-.lowermain> .m {
-    /* margin-left: 150px; */
-    flex:1
-}
-
-.lowermain> .r {
+.lowermain > .r {
     padding: 0 100px;
 }
 @media screen and (max-width: 580px) {
-    
-    .lowermain{
+    .lowermain {
         padding: 0 10px;
-        display:flex;
+        display: flex;
         flex-direction: column;
     }
-    .lowermain:nth-child(-n+3) {
+    .lowermain:nth-child(-n + 3) {
         margin-left: 0;
     }
-  }
+}

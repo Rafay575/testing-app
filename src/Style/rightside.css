@@ -33,9 +33,10 @@
     .rightside-main {
         flex-direction: column-reverse;
     }
+    .spinner {
+        margin-bottom: 100px;
+    }
 }
 
-@media screen and (max-width:1180) {
-
-   
+@media screen and (max-width: 1180) {
 }

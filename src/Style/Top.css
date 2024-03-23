@@ -1,17 +1,22 @@
-.topmain{
-    display:flex;
+.topmain {
+    display: flex;
 }
-
-.Full{
+.main-logo {
+    width: 381px;
+    height: 61px;
+}
+.Full {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 100px 0;
 }
 @media screen and (max-width: 580px) {
-    .Full{
-        padding-bottom: 30px; 
-        padding-top: 50px; 
-
+    .Full {
+        padding-bottom: 30px;
+        padding-top: 50px;
+    }
+    .main-logo {
+        width: 301px;
     }
 }

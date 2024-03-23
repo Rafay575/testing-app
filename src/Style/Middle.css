@@ -17,6 +17,12 @@
     padding-top: 220px;
     flex:1
 }
+
+.color{
+    color: rgba(255, 255, 255, 1); 
+    opacity:0.5 ;
+}
+
 .text{
     color: rgba(255, 255, 255, 1); 
     font-size: 15px; 
@@ -58,7 +64,7 @@
         align-items: center;
     }
     .middlemain{
-        /* padding-top: 150px; */
+        
         padding-top:200px
     }
     .middlemain>p{

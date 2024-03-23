@@ -9,13 +9,18 @@
     font-size: 25px;
     font-weight: 400;
 
-    color: rgb(213, 202, 202);
+    color: rgba(255, 255, 255, 1); 
+    opacity:0.8 ;
 }
 .footer-full {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px 0 0 0;
+}
+.color{
+    color: rgba(255, 255, 255, 1); 
+    opacity:0.8;
 }
 
 @media screen and (max-width: 580px) {

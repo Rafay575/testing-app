@@ -1,17 +1,13 @@
 import React from 'react'
 import CountdownTimer from './Countdown'
 import '../Style/Middle.css'
-import dayjs from 'dayjs';
 
 
 function Middle() {
-    const currentTimestamp = dayjs().valueOf();
-    // Add 120 days to the current timestamp
-    const futureTimestamp = dayjs(currentTimestamp).add(120, 'day').valueOf();
     return (
         <div className="middlemain">
             <div className='timerbox'>
-                <CountdownTimer countdownTimestampMs={futureTimestamp} />
+                <CountdownTimer  />
             </div>
             <p style={{ 'color': 'rgba(255, 255, 255, 1)', 'fontSize': '25px', "fontWeight": '400', 'opacity': '0.5', 'marginTop': '10px' }}>take your seat at the table for early access</p>
             <a href=' https://t.me/blockspinbet' style={{ marginTop: '12px' }}>

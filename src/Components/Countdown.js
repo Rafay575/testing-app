@@ -9,38 +9,23 @@ const defaultRemainingTime = {
     days: '00'
 };
 
-const CountdownTimer = () => {
-    // Initially, try to load the countdown target time from localStorage
-    const storedTimestamp = localStorage.getItem('countdownTarget');
-    const initialTimestamp = storedTimestamp ? parseInt(storedTimestamp, 10) : Date.now() + 5000; // Default to a 5-second countdown if none is stored
+// Hardcoded countdown target time (example: New Year 2024)
+const countdownTargetTime = new Date('July 23, 2024 00:00:00 GMT+0000').getTime();
 
-    const [countdownTimestampMs, setCountdownTimestampMs] = useState(initialTimestamp);
+const Countdown = () => {
     const [remainingTime, setRemainingTime] = useState(defaultRemainingTime);
 
     useEffect(() => {
-        // Update remaining time every second
         const intervalId = setInterval(() => {
-            const currentTime = Date.now();
-            if (countdownTimestampMs > currentTime) {
-                // Only update if the countdown hasn't finished
-                setRemainingTime(getRemainingTimeUntilMsTimestamp(countdownTimestampMs));
-            } else {
-                clearInterval(intervalId); // Stop the interval once the countdown is over
-            }
+            updateRemainingTime();
         }, 1000);
 
-        // Cleanup interval on component unmount
         return () => clearInterval(intervalId);
-    }, [countdownTimestampMs]);
+    }, []);
 
-    // Update the countdown target in both state and localStorage only if necessary
-    const updateCountdownTimestamp = (newTimestamp) => {
-        localStorage.setItem('countdownTarget', newTimestamp.toString());
-        setCountdownTimestampMs(newTimestamp);
+    const updateRemainingTime = () => {
+        setRemainingTime(getRemainingTimeUntilMsTimestamp(countdownTargetTime));
     };
-
-    // Optionally, allow for the countdown to be reset/adjusted from within the component
-    // For example, upon user action (not shown here)
 
     return (
         <div className="countdown-timer">
@@ -52,4 +37,4 @@ const CountdownTimer = () => {
     );
 };
 
-export default CountdownTimer;
+export default Countdown;

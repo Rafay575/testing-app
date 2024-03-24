@@ -1,5 +1,4 @@
 .lowermain {
-    padding: 0 50px;
     display: flex;
 }
 
@@ -10,13 +9,13 @@
 .lowermain > .r {
     padding: 0 100px;
 }
+
 @media screen and (max-width: 1180px) {
     .lowermain > .m {
         flex: 0.9;
     }
 
     .lowermain > .r {
-        /* margin-left: 50px ; */
         padding: 0;
     }
 }

@@ -13,14 +13,14 @@
     background-attachment: fixed;
     background-position: center;
     overflow: hidden;
+    padding: 0 50px;
 }
 
 @media screen and (max-width: 580px) {
-    .app{
-        
+    .app {
+        background: url("../public/images/mobile_bg.png");
+        background-size: contain;
         background-position: top;
         /* background-position-y:30%  */
-        ;
     }
-    
 }

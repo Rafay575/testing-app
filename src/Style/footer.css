@@ -12,7 +12,7 @@
     color: rgba(255, 255, 255);
     opacity: 0.9;
     margin: 0 3px;
-  
+
     font-family: Iceland;
 }
 .footer-full {
@@ -22,12 +22,16 @@
     margin: 0px 0 0 0;
 }
 
-
 @media screen and (max-width: 580px) {
     .footer-full {
         padding-bottom: 40px;
     }
     .text {
         font-size: 20px;
+    }
+}
+@media screen and (min-width: 1580px) {
+    .footer-full {
+        margin-top: 100px;
     }
 }

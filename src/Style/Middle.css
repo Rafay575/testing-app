@@ -1,53 +1,51 @@
-.timerbox{
-    width:450px ;
+.timerbox {
+    width: 450px;
     height: 82px;
     /* padding: 10px 40px; */
     background: rgba(217, 217, 217, 0.1);
-    border-radius: 10px;   
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.middlemain{
+.middlemain {
     /* background-color: bisque; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 220px;
-    flex:1
+    flex: 1;
 }
 
-.color{
-    color: rgba(255, 255, 255, 1); 
-    opacity:0.8 ;
+.color {
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.8;
     /* color: black; */
-   
 }
 
-.text{
-    color: rgba(255, 255, 255, 1); 
-    font-size: 15px; 
+.text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
     font-weight: 400;
-    opacity:0.5 ;
+    opacity: 0.5;
     /* margin: 10px 0px; */
 }
 
-
 @media screen and (max-width: 580px) {
-    .timerbox{
-        width:350px ;
+    .timerbox {
+        width: 350px;
         height: 60px;
         background: rgba(217, 217, 217, 0.1);
-        border-radius: 10px;   
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .middlemain{
+    .middlemain {
         padding-top: 150px;
     }
-    .middlemain>p{
+    .middlemain > p {
         padding: 0 80px;
         text-align: center;
         margin-top: 20px;
@@ -55,21 +53,20 @@
     }
 }
 
-@media screen and (max-width: 1180px  ) {
-    .timerbox{
-        width:350px ;
+@media screen and (max-width: 1180px) {
+    .timerbox {
+        width: 350px;
         height: 60px;
         background: rgba(217, 217, 217, 0.1);
-        border-radius: 10px;   
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .middlemain{
-        
-        padding-top:200px
+    .middlemain {
+        padding-top: 200px;
     }
-    .middlemain>p{
+    .middlemain > p {
         padding: 0 50px;
         text-align: center;
         margin-top: 20px;
@@ -77,3 +74,12 @@
     }
 }
 
+@media screen and (min-width: 1580px) {
+    .timerbox {
+        width: 650px;
+        height: 122px;
+    }
+    .middlemain {
+        padding-top: 300px;
+    }
+}

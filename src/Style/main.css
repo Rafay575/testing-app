@@ -14,12 +14,11 @@
     .lowermain > .m {
         flex: 0.9;
     }
-    
+
     .lowermain > .r {
         /* margin-left: 50px ; */
         padding: 0;
     }
-    
 }
 @media screen and (max-width: 580px) {
     .lowermain {
@@ -29,5 +28,10 @@
     }
     .lowermain:nth-child(-n + 3) {
         margin-left: 0;
+    }
+}
+@media screen and (min-width: 1580px) {
+    .lowermain > .r {
+        padding: 0 6%;
     }
 }

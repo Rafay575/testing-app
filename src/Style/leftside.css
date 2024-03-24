@@ -51,3 +51,16 @@
         opacity:0.5 
     }  
 }
+
+@media screen and (min-width: 1580px) {
+    .leftside{
+        font-size: 100px; 
+    }
+    .line{
+        width: 460px;
+        height: 3px;
+        margin: 25px 0 0 0;
+        
+    }
+
+}

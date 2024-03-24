@@ -11,5 +11,12 @@
     .countdown-timer > span {
         font-size: 25px;
     }
+    
+}
 
+@media screen and (min-width: 1580px) {
+    .countdown-timer > span {
+        font-size: 45px;
+    }
+    
 }

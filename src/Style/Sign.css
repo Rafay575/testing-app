@@ -2,7 +2,7 @@
     position: relative; /* Position container relative to its parent */
     width: 120px; /* Adjust width as needed */
     height: 120px; /* Adjust height as needed */
-    animation: rotate 2s linear infinite; /* Define the animation */
+    animation: rotate 5s linear infinite; /* Define the animation */
 }
 
 .rotating-add-sign {

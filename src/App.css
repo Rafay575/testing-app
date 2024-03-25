@@ -21,6 +21,8 @@
         background: url("../public/images/mobile_bg.png");
         background-size: contain;
         background-position: top;
-        /* background-position-y:30%  */
+        background-attachment: fixed;
+        padding: 0;
+
     }
 }

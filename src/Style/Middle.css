@@ -34,30 +34,6 @@
     /* margin: 10px 0px; */
 }
 
-@media screen and (max-width: 580px) {
-    .timerbox {
-        width: 350px;
-        height: 60px;
-        background: rgba(217, 217, 217, 0.1);
-        border-radius: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .margin-up {
-        margin-top: 0px;
-    }
-    .middlemain {
-        padding-top: 150px;
-    }
-    .middlemain > p {
-        padding: 0 80px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-}
-
 @media screen and (max-width: 1180px) {
     .timerbox {
         width: 350px;
@@ -88,3 +64,26 @@
         padding-top: 300px;
     }
 }
+    
+    @media screen and (max-width: 580px) {
+        .timerbox {
+            width: 350px;
+            height: 60px;
+            background: rgba(217, 217, 217, 0.1);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .middlemain {
+            padding-top: 140px;
+        }
+    
+        .middlemain > p {
+            padding: 0 80px;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
